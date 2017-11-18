@@ -207,9 +207,9 @@ void hexdump(uint8_t* data, uint32_t length) {
 			*(line + 74) = '|';
 			*(line + 75) = '\0';
 		} else if (!(pos & 0x3)) {
-            *x++ = ' ';
-            *c++ = ' ';
-        }
+			*x++ = ' ';
+			*c++ = ' ';
+		}
 	}
 
 	if (pos & 0xf) {
